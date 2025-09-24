@@ -21,7 +21,7 @@
   <pre class="overflow-visible!" data-start="508" data-end="538"><div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"><div class="sticky top-9"><div class="absolute end-0 bottom-0 flex h-9 items-center pe-2"><div class="bg-token-bg-elevated-secondary text-token-text-secondary flex items-center gap-4 rounded-sm px-2 font-sans text-xs"></div></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre!"><span><span>casego:BASE64_DATA</span><span>
   </span></span></code></div></div></pre>
 
-> FAQ（简短可放 README）
+> FAQ
 > 
 > * 口令错一位或密文任意一位被改动 → 解密失败（AES-GCM 的认证会失败）。
 > * 即使明文相同，多次加密​**通常会得到不同密文**​，因为每次使用随机 salt 与随机 IV。
